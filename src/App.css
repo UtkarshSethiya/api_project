@@ -1,0 +1,144 @@
+
+/**css*/
+
+.cards{
+ 
+  
+
+background: #FFFFFF;
+cursor: pointer;
+
+box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.2);
+border-radius: 4px;
+}
+.cards:hover{
+  
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+
+.click{
+  padding: 12px 16px;
+  width: 100% !important;
+  outline: none;
+border: none;
+background-color: rgba(255, 222, 173, 0);
+}
+.click:focus{
+  background-color: #A259FF;
+color: white; 
+  
+}
+.click:focus .gender{
+  color: white;
+}
+.click:focus .name{
+  color: white;
+}
+.click:focus .email{
+  color: white;
+}
+
+
+
+.gender{
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+
+/* identical to box height, or 21px */
+
+
+color: rgba(0, 0, 0, 0.6);
+
+}
+.name{
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+
+/* identical to box height, or 30px */
+
+
+color: #000000;
+}
+.email{
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+color: #E16259;
+}
+.box{
+  background: #FFFFFF;
+box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+border-radius: 16px;
+width: 996px;
+height: 291px;
+width: 60%;
+
+}
+.box:hover{
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+.box_cont{
+  display: flex;
+  justify-content: center;
+  
+}
+.bb{
+  color: black;
+}
+.boxname{
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 45px;
+
+text-decoration-line: underline;
+
+color: #E16259;
+}
+.add{
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+
+}
+.gen{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  color: gray;
+}
+.img{
+  border-radius: 120px;
+  
+}
+
+.img_cont{
+  display: flex;
+  justify-content: center;
+}
+.email2{
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+color: #fec321;
+}
+@media screen and (max-width:999px){
+.box{
+    width: 100% !important;
+    height: 600px;
+    text-align: center;
+  }
+  .img{
+    margin-top: 10px;
+  }
+
+}
